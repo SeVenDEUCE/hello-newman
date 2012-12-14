@@ -1,0 +1,62 @@
+[
+    {
+        "pk": 2,
+        "model": "flatpages.flatpage",
+        "fields": {
+            "registration_required": false,
+            "title": "About Greg",
+            "url": "/about/",
+            "template_name": "",
+            "sites": [
+                1
+            ],
+            "content": "<img src=\"http://farm6.static.flickr.com/5217/5460023248_f81996e213_m.jpg\" width=\"240\" height=\"160\" alt=\"Greg\" class=\"profile-img\" /><p>Greg Newman has been a freelance artist and illustrator, designer and developer since 2001.  He currently resides in Charlotte, North Carolina.</p>\r\n\r\n<p>As a young artist, Newman, was meticulous. Much of his time was spent studying, drawing, and painting wildlife.  He possessed an entrepreneurial spirit from an early age. He began his career by contracting work such as graphite portraits, and architectural renderings. After a short college career he spent several years in the  advertising, and creative industry, until finding solace in a <a href=\"http://www.flickr.com/photos/busyashell/6145487170/in/photostream/\">home studio</a> in late 2001.</p>\r\n\r\n<p>Still today, Newman specializes in portrait, uncanny semi-realistic caricature, and wildlife illustrations; as well as design, and development for the intertubes.</p>\r\n\r\n<p>Greg has done work for a wide variety of clients including the likes of National Geographic, Discovery Channel, and Broadway.</p>\r\n\r\n<p>If you are in need of detail oriented, quality work <a href=\"/contact/\">contact Greg</a>.</p>\r\n\r\n<h3>Interviews and Exhibits</h3>\r\n<a href=\"http://www.macworldiworld.com/digital-art-gallery/\" target=\"_blank\">Macworld/iWorld Digital Art Exhibit 2012</a><br />\r\n<a href=\"http://theappleartist.com/496/the-apple-artist-podcast-004-time-tracking-invoicing-to-do-apps\" target=\"_blank\">The Apple Artist: Podcast #4</a><br />\r\n<a href=\"http://processmade.com/greg-newman-his-man-cave-and-paintings\">ProcessMade</a>",
+            "enable_comments": false
+        }
+    },
+    {
+        "pk": 3,
+        "model": "flatpages.flatpage",
+        "fields": {
+            "registration_required": false,
+            "title": "Portrait Commissions",
+            "url": "/commissions/",
+            "template_name": "",
+            "sites": [
+                1
+            ],
+            "content": "<p style=\"font-size: 1.2em;\">Private commissions can include portraits, motorcycles, architecture, etc. in digital or traditional techniques.</p>\r\n\r\n<p><b>Digital</b> commissions are usually sketched traditionally in the study phase then scanned into the computer where they are painted to scale for the final <a href=\"http://en.wikipedia.org/wiki/Gicl%C3%A9e\" target=\"_blank\">Giclee prints</a>.</p>\r\n\r\n<p><b>Traditional</b> commissions can be done in watercolor and/or gouache, charcoal or graphite on heavy watercolor paper or bristol.</p>\r\n\r\n<h3>What\u2019s The Process, What Do You Get?</h3>\r\n<img src=\"http://dl.dropbox.com/u/6062/greg-org/abby_watermarked.jpg\" align=\"right\" style=\"width: 300px; border: 3px solid #000; margin: 0 0 15px 20px;\" alt=\"Private commissions by Greg Newman; Graphite commission.\"/>\r\n<p>When you commission a piece by Greg,\r\n<ul>\r\n<li>If you are local to Greg, he will take photographic references or sift through reference provided by you, the client.  Sometimes multiple photos work better to get the final composition correct and reflect the personality of the subject.</li>\r\n<li>If you are not local, Greg will review provided references and/or suggest better ways to get the right references. Sometimes multiple photos work better to get the final composition correct.</li>\r\n<li>The composition will be provided to ensure the client understands what the final piece will look like before the painting process begins.</li>\r\n<li>You will get the final piece in digital or traditional format (see above).</li>\r\n<li>Framing can be done prior to shipping or Greg can ship the print and the you can have it framed.</li>\r\n</ul>\r\n</p>\r\n\r\n<a href=\"/contact/\" title=\"private commisions contact form\">Inquire about commissioning Greg for your portrait or specialized project</a>.\r\n\r\n<h3>How Much?</h3>\r\n<img src=\"https://dl.dropbox.com/u/6062/greg-org/yawn-600w.jpg\" align=\"right\" style=\"width: 300px; border: 3px solid #000; margin: 0 0 15px 20px;\" alt=\"Private commisions by Greg Newman; Color Digital Painting.\" />\r\n\r\n<p>Digital portraits are a bit cheaper because the process is more forgiving than traditional.</p>\r\n\r\n<p><a href=\"http://gregnewman.org/contact/ \">Contact Greg</a> for pricing on digital  or traditional commissions based on subject matter of your choosing.   Keep in mind background subject matter as well as additional subjects wich increase complexity and require additional pricing.</p>\r\n\r\n<a href=\"/contact/\" title=\"private commisions contact form\">Inquire about commissioning Greg for your portrait or specialized project</a>.\r\n\r\n\r\n\r\n<h3>Rules Of Engagement</h3>\r\n<ul>\r\n<li>If Greg takes photographic references there is a one time fee of $150.00 to shoot the references.</li>\r\n<li>The composition will be provided prior to painting which will be signed by you as approval.</li>\r\n<li>If licensing fees or outside copyrights are to be acquired, you are responsible for those fees.</li>\r\n<li>A 50% deposit is required prior to starting the commission and reference shoot.  In the event of cancelation after initial studies and drawing have started, a penalty of 25% of total commissioned price will be withheld.  If cancelled after the painting process begins the remaining 50% deposit is non-refundable.  The remaining balance is due prior to shipping or delivering the final commissioned art.</li>\r\n<li>Timelines vary and will be discussed on a individual basis.</li>\r\n<li>Tax, framing and shipping are not included.</li>\r\n<li>Greg retains all copyright on the work provided and further use is prohibited without expressed written permission.</li>\r\n</ul>\r\n\r\n<a href=\"/contact/\" title=\"private commisions contact form\">Inquire about commissioning Greg for your portrait or specialized project</a>.",
+            "enable_comments": false
+        }
+    },
+    {
+        "pk": 4,
+        "model": "flatpages.flatpage",
+        "fields": {
+            "registration_required": false,
+            "title": "'05 Harley Davidson Heritage Springer",
+            "url": "/heritage-springer/",
+            "template_name": "",
+            "sites": [
+                1
+            ],
+            "content": "<p>My new ride is a 2005 Harley Davidson Heritage Springer Classic, fuel injected. 4,581 miles.  Sorry for the semi-crappy iPhone picks.</p>\r\n\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3493.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3494.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3495.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3496.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3497.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3498.jpg\"  style=\"width: 500px;\"/><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3499.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3500.jpg\" style=\"width: 500px;\" /><br />\r\n<img src=\"http://dl.dropbox.com/u/6062/hd-springer/IMG_3501.jpg\" style=\"width: 500px;\" /><br />",
+            "enable_comments": false
+        }
+    },
+    {
+        "pk": 1,
+        "model": "flatpages.flatpage",
+        "fields": {
+            "registration_required": false,
+            "title": "Portfolio",
+            "url": "/portfolio/",
+            "template_name": "",
+            "sites": [
+                1
+            ],
+            "content": "Please be patient.  This awesome section is coming real soon!!",
+            "enable_comments": false
+        }
+    }
+]
