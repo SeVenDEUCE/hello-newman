@@ -14,18 +14,21 @@
 
 {% block content %}
     {% if entries %}
-        <div class="journal-row">
         {% for entry in entries %}
-        <div class="journal-excerpt eight columns">
-            <span class="entry-date">{{ entry.created_on|date:"M. jS, Y" }}</span>
-            <h2><a href="{{ entry.get_absolute_url }}">{{ entry.title }}</a></h2>
-            <div class="entry-body">
+        <article>
+            <div class="six columns">
+                <span class="entry-date">{{ entry.created_on|date:"M. jS, Y" }}</span>
+                <span class="comment-count">{% disqus_num_replies %} <a href="{{ entry.get_absolute_url }}#disqus_thread" data-disqus-identifier="{{ entry.id }}">View Comments</a></span>
+            </div>
+            <div class="ten columns">
+                <h2><a href="{{ entry.get_absolute_url }}">{{ entry.title }}</a></h2>
                 {{ entry.excerpt|apply_markup:entry.markup }} <a href="{{ entry.get_absolute_url }}" class="continue">Continue Reading</a>
             </div>
-            <div class="clearfix"></div>
-        </div>
-        {% if forloop.counter|divisibleby:"2" %}</div><div class="clearfix"></div>{% if not forloop.last %}<div class="journal-row">{% endif %}{% endif %}
+
+        </article>
         {% endfor %}
+
+
     {% else %}
         <h2>WHOOPS!</h2>
         <p>Currently there are no entries in that Journal.  Please check back yo!</p>

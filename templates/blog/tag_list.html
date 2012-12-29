@@ -3,8 +3,10 @@
 {% block body-class %}journal-body{% endblock %}
 
 {% block content %}
-    <h2>Entries matching tag "{{ tag.name }}"</h2>
-    {% for entry in entries %}
-        {{ entry.created_on|date:"M. jS, y" }}: <a href="{{ entry.get_absolute_url }}">{{ entry.title }}</a><br />
-    {% endfor %}
+    <article>
+        <h2>Entries matching tag "{{ tag.name }}"</h2>
+        {% for entry in entries %}
+            {{ entry.created_on|date:"M. jS, y" }}: <a href="{{ entry.get_absolute_url }}">{{ entry.title }}</a><br />
+        {% endfor %}
+    </article>
 {% endblock %}
