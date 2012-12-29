@@ -25,7 +25,9 @@
             <p><a href="https://www.facebook.com/NewmanStudiosFineArt">Also on Facebook</a></p>
         </div>
 
-        <div class="disqus-comments"><a name="disqus_thread"></a>{% set_disqus_identifier entry.id %}
+        <div class="disqus-comments"><a name="disqus_thread"></a>
+            {% set_disqus_identifier entry.id %}
+            {% set_disqus_url entry.get_absolute_url %}
             {% disqus_show_comments %}
         </div>
     </article>
