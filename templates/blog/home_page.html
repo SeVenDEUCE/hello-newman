@@ -15,7 +15,7 @@
 {% block content %}
     {% if entries %}
         {% for entry in entries %}
-        <article>
+        <article class="rows">
             <div class="six columns">
                 <span class="entry-date">{{ entry.created_on|date:"M. jS, Y" }}</span>
                 <span class="comment-count">{% disqus_num_replies %} <a href="{{ entry.get_absolute_url }}#disqus_thread" data-disqus-identifier="{{ entry.id }}">View Comments</a></span>
