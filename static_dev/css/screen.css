@@ -81,9 +81,15 @@ li.behance a:hover { background: url(../img/icon-behance-on.png) no-repeat top l
 ----------------------------------------------------------------------------*/
 p, ul { font: 18px/27px "MerriweatherRegular", Arial, sans-serif; }
 
-h1, h2, h3, h4 { font-family: "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2",sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 1.4em; }
+h1, h2, h3, h4 { font-family: "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2",sans-serif; font-style: normal; font-weight: 700; line-height: 1.4em; }
 
 h1 { font-size: 2.4em; }
+
+h2 { font-size: 2em; }
+
+h3 { font-size: 1.5em; }
+
+h4 { font-size: 1.2em; }
 
 blockquote { font: 18px/27px "MerriweatherBold", Arial, sans-serif; color: #333; }
 
