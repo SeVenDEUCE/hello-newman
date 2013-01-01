@@ -83,7 +83,7 @@ p, ul { font: 18px/27px "MerriweatherRegular", Arial, sans-serif; }
 
 h1, h2, h3, h4 { font-family: "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2",sans-serif; font-style: normal; font-weight: 700; line-height: 1.4em; }
 
-h1 { font-size: 2.4em; }
+h1 { font: 24px/36px "MerriweatherBold", Georgia, serif; font-size: 2.4em; }
 
 h2 { font-size: 2em; }
 
