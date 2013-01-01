@@ -27,7 +27,7 @@
 
         <div class="disqus-comments"><a name="disqus_thread"></a>
             {% set_disqus_identifier entry.id %}
-            {% set_disqus_url "http://gregnewman.org" + entry.get_absolute_url %}
+            {% set_disqus_url entry.get_absolute_url %}
             {% set_disqus_title entry.title %}
             {% disqus_show_comments %}
         </div>
