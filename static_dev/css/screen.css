@@ -1,4 +1,4 @@
-/* ==|== primary styles ===================================================== Author: Greg Newman  ========================================================================== */
+/* ==|== primary styles ===================================================== Author: Greg Newman 2012-2013 ========================================================================== */
 /* ` Mixins
 ----------------------------------------------------------------------------*/
 /* ` @font-face fonts
@@ -14,6 +14,8 @@
 /* ` Block Level Elements
 ----------------------------------------------------------------------------*/
 body { background: #824013; }
+
+.social-block { width: 100%; background: #000; margin: 0; padding: 5px 0; }
 
 nav { position: relative; height: 43px; background: #5b5853; }
 
@@ -49,33 +51,45 @@ footer a, footer a:active, footer a:visited { color: #fff; }
 
 .about .about-nav a, .commissions .commissions-nav a, .portfolio-body .portfolio-nav a, .journal-body .journal-nav a, .contact-body .contact-nav a { color: #f4dcac; }
 
-.social ul { margin: 8px 0 0 0; padding: 0; z-index: 9999; }
+.social ul { margin: 8px auto 0 auto; width: 960px; padding: 0; z-index: 9999; position: relative; }
 
-.social ul li { float: right; margin: 0 15px; padding: 0; }
+.social ul li { float: right; margin: 0 5px; padding: 0; }
 
 .social ul li a { display: block; width: 27px; height: 24px; }
 
+.newsletter { position: absolute; left: 0; }
+
+.social ul li.newsletter a { width: 150px; text-decoration: none; color: #F4DCAC; }
+
 li.twitter { margin-right: 0 !important; }
 
-li.twitter a { background: url(../img/icon-twitter.png) no-repeat top left; }
+li.twitter a { background: url(../img/social-sprite.png) no-repeat -175px 0; }
 
-li.dribbble a { background: url(../img/icon-dribbble.png) no-repeat top left; }
+li.twitter a:hover { background: url(../img/social-sprite.png) no-repeat -175px -25px; }
 
-li.facebook a { background: url(../img/icon-facebook.png) no-repeat top left; }
+li.facebook a { background: url(../img/social-sprite.png) no-repeat -31px 0; }
 
-li.flickr a { background: url(../img/icon-flickr.png) no-repeat top left; }
+li.facebook a:hover { background: url(../img/social-sprite.png) no-repeat -31px -25px; }
 
-li.behance a { background: url(../img/icon-behance.png) no-repeat top left; }
+li.flickr a { background: url(../img/social-sprite.png) no-repeat -144px 0; }
 
-li.twitter a:hover { background: url(../img/icon-twitter-on.png) no-repeat top left; }
+li.flickr a:hover { background: url(../img/social-sprite.png) no-repeat -144px -25px; }
 
-li.dribbble a:hover { background: url(../img/icon-dribbble-on.png) no-repeat top left; }
+li.behance a { background: url(../img/social-sprite.png) no-repeat -114px 0; }
 
-li.facebook a:hover { background: url(../img/icon-facebook-on.png) no-repeat top left; }
+li.behance a:hover { background: url(../img/social-sprite.png) no-repeat -114px -25px; }
 
-li.flickr a:hover { background: url(../img/icon-flickr-on.png) no-repeat top left; }
+li.linkedin a { background: url(../img/social-sprite.png) no-repeat -88px 0; }
 
-li.behance a:hover { background: url(../img/icon-behance-on.png) no-repeat top left; }
+li.linkedin a:hover { background: url(../img/social-sprite.png) no-repeat -88px -25px; }
+
+li.dribbble a { background: url(../img/social-sprite.png) no-repeat -55px 0; }
+
+li.dribbble a:hover { background: url(../img/social-sprite.png) no-repeat -55px -25px; }
+
+li.instagram a { background: url(../img/social-sprite.png) no-repeat 0 0; }
+
+li.instagram a:hover { background: url(../img/social-sprite.png) no-repeat 0 -25px; }
 
 /* ` Standard Elements
 ----------------------------------------------------------------------------*/
@@ -314,8 +328,7 @@ span.total-discount, span.total-shipping { font-weight: bold; }
 /* Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) { .home-banner img { width: 768px; }
   .navbar a { font-size: 18px; }
-  /* @@@TODO|FIXME */
-  .social { display: none; }
+  .social-block ul { width: 90%; }
   footer { text-align: center; }
   .skull { display: none; }
   .portfolio-detail img { width: 90%; }
@@ -328,6 +341,10 @@ span.total-discount, span.total-shipping { font-weight: bold; }
 @media only screen and (max-width: 767px) { .home-banner img { display: none; }
   p, ul { font-size: 0.9em; }
   .thumb-2, .thumb-4, .thumb-6, .thumb-8, .thumb-10, .thumb-12, .thumb-14, .thumb-16, .thumb-18, .thumb-20 { margin-right: 0 !important; }
+  .newsletter { top: 300px; }
+  .newsletter a { color: #000; }
+  .social-block ul { width: 100%; text-align: center; }
+  .social-block ul li { display: inline-block; float: none; }
   .bike { top: 100px; }
   section { padding-top: 135px; }
   header { height: 120px; }
@@ -351,13 +368,15 @@ span.total-discount, span.total-shipping { font-weight: bold; }
 @media only screen and (min-width: 480px) and (max-width: 767px) { .home-banner img { width: 420px; }
   p, ul { font-size: 0.9em; }
   .portfolio-thumbs img { margin: 2px !important; width: 120px; }
+  .social-block ul { width: 100%; text-align: center; }
+  .social-block ul li { float: none; display: inline-block; }
   .bike { top: 130px; right: 30px; }
   header { height: 140px; }
   section { padding-top: 140px; }
   header h1 img { width: 440px; }
   header h1 { top: 10px; left: 0; }
   header:after { content: ''; position: absolute; top: 110px; left: 0; height: 90px; display: block; width: 100%; background: #efebe3; transform: rotate(1deg); -ms-transform: rotate(1deg); /* IE 9 */ -moz-transform: rotate(1deg); /* Firefox */ -webkit-transform: rotate(1deg); /* Safari and Chrome */ -o-transform: rotate(1deg); /* Opera */ }
-  .navbar a { font-size: 16px; }
+  .navbar a { font-size: 14px; padding: 0 6px; }
   footer { text-align: center; }
   .skull { display: none; }
   .profile-img, .commissions section img, .entry-body img { float: none; margin: 10px auto; padding: 4px; background: #fff; border: 1px solid #000; }

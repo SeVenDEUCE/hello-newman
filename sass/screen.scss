@@ -1,5 +1,5 @@
 /* ==|== primary styles =====================================================
-   Author: Greg Newman 
+   Author: Greg Newman 2012-2013
    ========================================================================== */
 
 
@@ -97,6 +97,13 @@
 
 body {
     background: #824013;
+}
+
+.social-block {
+    width: 100%;
+    background: #000;
+    margin: 0;
+    padding: 5px 0;
 }
 
 nav {
@@ -230,14 +237,16 @@ footer a:visited {
 }
 
 .social ul {
-    margin: 8px 0 0 0;
+    margin: 8px auto 0 auto;
+    width: 960px;
     padding: 0;
     z-index: 9999;
+    position: relative;
 }
 
 .social ul li {
     float: right;
-    margin: 0 15px;
+    margin: 0 5px;
     padding: 0;
 }
 
@@ -247,48 +256,75 @@ footer a:visited {
     height: 24px;
 }
 
+.newsletter {
+    position: absolute;
+    left: 0;
+}
+
+.social ul li.newsletter a {
+    width: 150px;
+    text-decoration: none;
+    color: #F4DCAC;
+}
+
 li.twitter {
     margin-right: 0 !important;
 }
 
 li.twitter a {
-    background: url(../img/icon-twitter.png) no-repeat top left;
-}
-
-li.dribbble a {
-    background: url(../img/icon-dribbble.png) no-repeat top left;
-}
-
-li.facebook a {
-    background: url(../img/icon-facebook.png) no-repeat top left;
-}
-
-li.flickr a {
-    background: url(../img/icon-flickr.png) no-repeat top left;
-}
-
-li.behance a {
-    background: url(../img/icon-behance.png) no-repeat top left;
+    background: url(../img/social-sprite.png) no-repeat -175px 0;
 }
 
 li.twitter a:hover {
-    background: url(../img/icon-twitter-on.png) no-repeat top left;
+    background: url(../img/social-sprite.png) no-repeat -175px -25px;
 }
 
-li.dribbble a:hover {
-    background: url(../img/icon-dribbble-on.png) no-repeat top left;
+li.facebook a {
+    background: url(../img/social-sprite.png) no-repeat -31px 0;
 }
 
 li.facebook a:hover {
-    background: url(../img/icon-facebook-on.png) no-repeat top left;
+    background: url(../img/social-sprite.png) no-repeat -31px -25px;
+}
+
+li.flickr a {
+    background: url(../img/social-sprite.png) no-repeat -144px 0;
 }
 
 li.flickr a:hover {
-    background: url(../img/icon-flickr-on.png) no-repeat top left;
+    background: url(../img/social-sprite.png) no-repeat -144px -25px;
+}
+
+li.behance a {
+    background: url(../img/social-sprite.png) no-repeat -114px 0;
 }
 
 li.behance a:hover {
-    background: url(../img/icon-behance-on.png) no-repeat top left;
+    background: url(../img/social-sprite.png) no-repeat -114px -25px;
+}
+
+li.linkedin a {
+    background: url(../img/social-sprite.png) no-repeat -88px 0;
+}
+
+li.linkedin a:hover {
+    background: url(../img/social-sprite.png) no-repeat -88px -25px;
+}
+
+li.dribbble a {
+    background: url(../img/social-sprite.png) no-repeat -55px 0;
+}
+
+li.dribbble a:hover {
+    background: url(../img/social-sprite.png) no-repeat -55px -25px;
+}
+
+li.instagram a {
+    background: url(../img/social-sprite.png) no-repeat 0 0;
+}
+
+li.instagram a:hover {
+    background: url(../img/social-sprite.png) no-repeat 0 -25px;
 }
 
 
@@ -931,11 +967,13 @@ span.total-shipping {
         }
 
         .navbar a { font-size: 18px; }
-        /* @@@TODO|FIXME */
-        .social { display: none; }
+
+        .social-block ul {
+            width: 90%;
+        }
+
         footer { text-align: center; }
         .skull { display: none; }
-
 
         .portfolio-detail img { width: 90%; }
 
@@ -978,7 +1016,23 @@ span.total-shipping {
         .thumb-18,
         .thumb-20 { margin-right: 0 !important; }
 
+        .newsletter {
+            top: 300px;
+        }
 
+        .newsletter a {
+            color: #000;
+        }
+
+        .social-block ul {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .social-block ul li {
+            display: inline-block;
+            float: none;
+        }
         .bike {
             top: 100px;
         }
@@ -1092,6 +1146,16 @@ span.total-shipping {
             width: 120px;
         }
 
+        .social-block ul {
+            width: 100%;
+            text-align: center;
+        }
+
+        .social-block ul li {
+            float: none;
+            display: inline-block;
+        }
+
 
         .bike {
             top: 130px;
@@ -1125,7 +1189,7 @@ span.total-shipping {
             -o-transform:rotate(1deg); /* Opera */
         }
 
-        .navbar a { font-size: 16px; }
+        .navbar a { font-size: 14px; padding: 0 6px; }
         footer { text-align: center; }
         .skull { display: none; }
 
