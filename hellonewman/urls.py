@@ -25,6 +25,7 @@ urlpatterns = patterns('',
     (r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),
     #robots
     (r'^robots\.txt$', direct_to_template, {'template': 'robots.txt', 'mimetype': 'text/plain'}),
+    (r'^pinterest-66e13.html$', direct_to_template, {'template': 'pinterest-66e13.html'}),
     
     
 
