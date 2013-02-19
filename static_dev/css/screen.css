@@ -45,8 +45,6 @@ footer a, footer a:active, footer a:visited { color: #fff; }
 
 .navbar a:hover { color: #f4dcac; }
 
-.navbar li.shop-link { padding-left: 15px; background: black url(../img/shop_nav_bg.png) no-repeat left bottom; }
-
 .navbar ul li.shop-link a, .navbar ul li.shop-link a:visited { background: #000; padding-right: 10px; color: #f4dcac; font-family: "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2",sans-serif; font-style: normal; font-weight: 700; }
 
 .about .about-nav a, .commissions .commissions-nav a, .portfolio-body .portfolio-nav a, .journal-body .journal-nav a, .contact-body .contact-nav a { color: #f4dcac; }
