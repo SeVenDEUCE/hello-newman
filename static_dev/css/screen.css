@@ -175,6 +175,8 @@ article { margin: 25px 0; }
 
 article p { padding-right: 20px; }
 
+.big-copy { font: 36px/48px "MerriweatherRegular", Arial, sans-serif; padding-right: 0; }
+
 article h3 { margin-top: 25px; }
 
 article ul li { list-style: disc; margin-left: 15px; line-height: 1.5em; }
