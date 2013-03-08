@@ -6,9 +6,25 @@
 {% block meta_description %}Greg Newman's recent illustration, store and blog.  Wildlife, portrait and motorcycle paintings.{% endblock %}
 
 {% block content %}
-<div class="home-banner"><img src="{{ STATIC_URL }}img/home-1.png" /></div>
+<div class="six columns news">
+    <h2>News</h2>
+    <ul>
+        <li>
+            <a href="http://shop.gregnewman.org/category/instructional-videos"><img src="https://dl.dropbox.com/u/6062/greg-org/si_blocking_video.jpg" style="width: 95%; margin-bottom: 10px;">
+            Preorders are now being taken for the TWO videos made during the painting process of "That's a Fact Jack!".</a>
+        </li>
+        <li>
+            <a href="http://gregnewman.org/journal/2013/mar/6/thats-a-fact-jack-painting/"><img src="https://dl.dropbox.com/u/6062/greg-org/Si_framed.jpg" style="width: 95%; margin-bottom: 10px;" /></a>
+            Newest Painting "That's a Fact Jack".  <a href="http://shop.gregnewman.org/product/that-s-a-fact-jack">Limited Edition prints available in the shop!</a>
+        </li>
+        <li>Greg will be conducting a live Painter Lite webinar with Corel focusing on questions and answers about Painter Lite on March 15th at 12:00pm EST.  <a href="https://www1.gotomeeting.com/register/118114136">Signup is free to attend.</a>
+</div>
+<div class="ten columns">
+    <div class="home-banner">
+        <img src="{{ STATIC_URL }}img/home-1.png" style="width: 100%;" />
+    </div>
     <div class="about-copy rows">
-        <p>Newman Studios is an illustration, design and fine art studio located in Charlotte, North Carolina.  Greg Newman, is a recognized freelance artist specializing in portrait, wildlife, motorcyle and technical paintings and illustrations.  Greg also works as a <i>devigner</i> (designer & developer) servicing clients that include (but are not limited to) National Geographic, Discovery Channel and Broadway.  Newman Studios is accepting new projects and can be <a href="/contact/">contacted here</a>.</p>
+        <p>Greg Newman Studios is an illustration, design and fine art studio located in Charlotte, North Carolina.  Greg Newman, is a recognized freelance artist specializing in portrait, wildlife, motorcyle and technical paintings and illustrations.  Greg also works as a <i>devigner</i> (designer & developer) servicing clients that include (but are not limited to) National Geographic, Discovery Channel and Broadway.  Newman Studios is accepting new projects and can be <a href="/contact/">contacted here</a>.</p>
 
         <p><i>"Creative thinking and compelling illustrations are key to engaging and retaining today's A.D.D. digital and print audiences. Greg Newman creates compelling works of art that stand-out and grab one's attention."</i><br />
 ~ Andy Church, Product Manager, Corel Corporation</p>
@@ -19,5 +35,5 @@
         <a href="{% url gallery-detail work.slug %}" title="{{ work.title }}"><img src="{{ work.thumbnail.url }}" class="thumb-{{ forloop.counter }}" alt="{{ work.title }} - {{ work.description }}" /></a>
         {% endfor %}
     </div>
-
+</div>
 {% endblock %}

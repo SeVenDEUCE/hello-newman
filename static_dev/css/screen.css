@@ -105,11 +105,13 @@ blockquote { font: 18px/27px "MerriweatherBold", Arial, sans-serif; color: #333;
 
 /* ` Home View Elements
 ----------------------------------------------------------------------------*/
+.news ul li { line-height: 1.5em; border-bottom: 1px solid #b0aea6; padding: 10px 20px 10px 0; }
+
 .home-banner { text-align: center; }
 
 .about-copy { padding: 0 15px; margin: 40px auto; }
 
-.portfolio-thumbs img { margin: 0 20px 15px 0; border: 6px solid #000; }
+.portfolio-thumbs img { margin: 0 20px 15px 0; border: 6px solid black; }
 
 .thumb-6, .thumb-12, .thumb-18, .thumb-24, .thumb-30 { margin-right: 0 !important; }
 
@@ -117,19 +119,19 @@ blockquote { font: 18px/27px "MerriweatherBold", Arial, sans-serif; color: #333;
 
 /* ` Portfolio View Elements
 ----------------------------------------------------------------------------*/
-.portfolio-large { padding: 10px; border: 2px solid #000; background: #fff; }
+.portfolio-large { padding: 10px; border: 2px solid black; background: #fff; }
 
 .portfolio-related, .portfolio-tags { margin-top: 25px; font-size: 1.2em; }
 
 .portfolio-details, .portfolio-categories, .portfolio-purchase, .portfolio-social { margin-bottom: 25px; font-size: 1.2em; }
 
-.portfolio-purchase a { background-color: #ae5a31; background-image: -webkit-gradient(linear, left top, left bottom, from(#ae5a31), to(#7f4121)); background-image: -webkit-linear-gradient(top, #ae5a31, #7f4121); background-image: -moz-linear-gradient(top, #ae5a31, #7f4121); background-image: -o-linear-gradient(top, #ae5a31, #7f4121); background-image: -ms-linear-gradient(top, #ae5a31, #7f4121); background-image: linear-gradient(top, #ae5a31, #7f4121); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#ae5a31', EndColorStr='#7f4121'); text-decoration: none; font-size: 1.1em; border: 2px solid #000; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 6px 10px; outline: 0; border: 0; cursor: pointer; color: #fff; font-weight: bold; }
+.portfolio-purchase a { background-color: #ae5a31; background-image: -webkit-gradient(linear, left top, left bottom, from(#ae5a31), to(#7f4121)); background-image: -webkit-linear-gradient(top, #ae5a31, #7f4121); background-image: -moz-linear-gradient(top, #ae5a31, #7f4121); background-image: -o-linear-gradient(top, #ae5a31, #7f4121); background-image: -ms-linear-gradient(top, #ae5a31, #7f4121); background-image: linear-gradient(top, #ae5a31, #7f4121); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#ae5a31', EndColorStr='#7f4121'); text-decoration: none; font-size: 1.1em; border: 2px solid black; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 6px 10px; outline: 0; border: 0; cursor: pointer; color: #fff; font-weight: bold; }
 
 .portfolio-purchase a:hover { color: #F4DCAC; }
 
 /* ` Flatpage View Elements
 ----------------------------------------------------------------------------*/
-.profile-img, .commissions section img { float: right; margin-left: 20px; padding: 4px; background: #fff; border: 1px solid #000; }
+.profile-img, .commissions section img { float: right; margin-left: 20px; padding: 4px; background: #fff; border: 1px solid black; }
 
 /* ` Form View Elements
 ----------------------------------------------------------------------------*/
@@ -143,11 +145,11 @@ form label { display: block; float: left; width: 200px; margin: 0 5px 2px 0; fon
 
 label.required { color: #b6764c; }
 
-form input[type=text], form input[type=password] { width: 250px; padding: 3px 8px; color: #333; border: 1px solid #000; }
+form input[type=text], form input[type=password] { width: 250px; padding: 3px 8px; color: #333; border: 1px solid black; }
 
-form select { width: 200px; border: 1px solid #999; }
+form select { width: 200px; border: 1px solid #999999; }
 
-form textarea { padding: 3px 8px; width: 320px; height: 90px; color: #333; border: 1px solid #000; }
+form textarea { padding: 3px 8px; width: 320px; height: 90px; color: #333; border: 1px solid black; }
 
 form input[type=text]:focus, form textarea:focus, form select:focus { color: #000; }
 
@@ -181,7 +183,7 @@ aside { margin-top: 94px; font: 14px/21px "MerriweatherRegular", Arial, sans-ser
 
 .social-buttons { margin-top: 20px; }
 
-.closing { margin-top: 50px; border-top: 1px solid #666; padding: 20px 0 0 100px; }
+.closing { margin-top: 50px; border-top: 1px solid #666666; padding: 20px 0 0 100px; }
 
 .closing p { font: 14px/21px "MerriweatherLight", Arial, sans-serif; }
 
@@ -191,7 +193,7 @@ aside { margin-top: 94px; font: 14px/21px "MerriweatherRegular", Arial, sans-ser
 
 .journal-excerpt h2 { height: 30px; overflow: hidden; }
 
-.journal-excerpt img { margin-bottom: 20px; display: block; border: 7px solid #000; }
+.journal-excerpt img { margin-bottom: 20px; display: block; border: 7px solid black; }
 
 /* ` footer Elements
 ----------------------------------------------------------------------------*/
@@ -205,7 +207,7 @@ footer h3 { color: #F4DCAC; }
 
 #latest_tweet { margin-top: 50px; }
 
-.dribbble-shots img { border: 6px solid #000; }
+.dribbble-shots img { border: 6px solid black; }
 
 /* ` Store View Elements
 ----------------------------------------------------------------------------*/
@@ -219,7 +221,7 @@ footer h3 { color: #F4DCAC; }
 
 #product-images .images-list { position: absolute; top: 0; left: 28px; padding: 7px 0 8px 0; }
 
-#product-images .images-list li { display: inline; padding: 0 5px; list-style: none; border-left: 1px solid #666; }
+#product-images .images-list li { display: inline; padding: 0 5px; list-style: none; border-left: 1px solid #666666; }
 
 #product-images .images-list li.image-1 { border-left: none; }
 
@@ -279,7 +281,7 @@ footer h3 { color: #F4DCAC; }
 /* Cart Footer ---------------------------------------------*/
 #cart-footer { margin: 10px 0; }
 
-#cart-footer .cart-update { padding: 10px 0; text-align: right; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+#cart-footer .cart-update { padding: 10px 0; text-align: right; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; }
 
 #cart-footer .update-btn { cursor: pointer; }
 
@@ -287,13 +289,13 @@ footer h3 { color: #F4DCAC; }
 
 #cart-footer #country { width: 160px; margin-left: 5px; padding: 2px 0; font-size: 11px; }
 
-#cart-footer .cart-discount { padding: 10px 0; border-bottom: 1px solid #ddd; text-align: right; }
+#cart-footer .cart-discount { padding: 10px 0; border-bottom: 1px solid #dddddd; text-align: right; }
 
 #cart-footer #cart_discount_code { width: 80px; margin-left: 10px; }
 
 #cart-footer .cart-discount p { margin: 1px 0; }
 
-#cart-footer .cart-total { padding: 15px 0; text-align: right; border-bottom: 1px solid #ddd; }
+#cart-footer .cart-total { padding: 15px 0; text-align: right; border-bottom: 1px solid #dddddd; }
 
 #cart-footer .cart-total h3 { font-size: 16px; margin: 0; }
 
@@ -352,14 +354,14 @@ span.total-discount, span.total-shipping { font-weight: bold; }
   .navbar a { font-size: 10px; }
   footer { text-align: center; }
   .skull { display: none; }
-  .profile-img, .commissions section img, .entry-body img { display: block; float: none; width: 80% !important; margin: 10px auto; padding: 4px; background: #fff; border: 1px solid #000; }
+  .profile-img, .commissions section img, .entry-body img { display: block; float: none; width: 80% !important; margin: 10px auto; padding: 4px; background: #fff; border: 1px solid black; }
   .portfolio-large { width: 90%; margin: 0 auto; }
   article h1 { font-size: 1.4em; }
   .journal-excerpt { margin-bottom: 10px; padding-bottom: 20px; min-height: 400px; }
   label { float: none; display: block; width: 80% !important; }
-  form input[type=text], form input[type=password] { display: block; width: 250px; padding: 3px 8px; color: #333; border: 1px solid #000; }
+  form input[type=text], form input[type=password] { display: block; width: 250px; padding: 3px 8px; color: #333; border: 1px solid black; }
   .formrow { width: 92%; }
-  form textarea { padding: 3px 8px; width: 250px; height: 90px; color: #333; border: 1px solid #000; } }
+  form textarea { padding: 3px 8px; width: 250px; height: 90px; color: #333; border: 1px solid black; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
@@ -377,7 +379,7 @@ span.total-discount, span.total-shipping { font-weight: bold; }
   .navbar a { font-size: 14px; padding: 0 6px; }
   footer { text-align: center; }
   .skull { display: none; }
-  .profile-img, .commissions section img, .entry-body img { float: none; margin: 10px auto; padding: 4px; background: #fff; border: 1px solid #000; }
+  .profile-img, .commissions section img, .entry-body img { float: none; margin: 10px auto; padding: 4px; background: #fff; border: 1px solid black; }
   .portfolio-large { width: 90%; margin: 0 auto; }
   article h1 { font-size: 1.4em; }
   .journal-excerpt { margin-bottom: 10px; padding-bottom: 20px; min-height: 400px; } }

@@ -354,6 +354,11 @@ blockquote {
 
 /* ` Home View Elements
 ----------------------------------------------------------------------------*/
+.news ul li {
+    line-height: 1.5em;
+    border-bottom: 1px solid #b0aea6;
+    padding: 10px 20px 10px 0;
+}
 
 .home-banner {
     text-align: center;
