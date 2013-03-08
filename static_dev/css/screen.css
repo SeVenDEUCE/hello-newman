@@ -109,6 +109,8 @@ blockquote { font: 18px/27px "MerriweatherBold", Arial, sans-serif; color: #333;
 
 .home-banner { text-align: center; margin-top: 60px; }
 
+home-block .portfolio-thumbs img { margin: 0 5px 5px 0 !important; }
+
 .about-copy { padding: 0 15px; margin: 40px auto; }
 
 .portfolio-thumbs img { margin: 0 20px 15px 0; border: 6px solid black; }
