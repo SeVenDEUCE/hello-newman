@@ -107,7 +107,7 @@ blockquote { font: 18px/27px "MerriweatherBold", Arial, sans-serif; color: #333;
 ----------------------------------------------------------------------------*/
 .news ul li { line-height: 1.5em; border-bottom: 1px solid #b0aea6; padding: 10px 20px 10px 0; }
 
-.home-banner { text-align: center; }
+.home-banner { text-align: center; margin-top: 60px; }
 
 .about-copy { padding: 0 15px; margin: 40px auto; }
 
